@@ -23,6 +23,7 @@ public class ConsulRegistry implements ServiceRegistry {
     @Override
     public void registerService(String name, String uri) {
         try {
+        	System.out.println("registerService: " + name + ", " + uri); 
 
             URL url = new URL(uri);
 
@@ -48,6 +49,7 @@ public class ConsulRegistry implements ServiceRegistry {
 
     private ConsulClient getConsulClient() {
         String consulHost = System.getProperty("consul.host", "192.168.99.100"); // DOCKER
+        System.out.println("consulHost: " + consulHost);
         ConsulClient client = new ConsulClient(consulHost);
         return client;
     }
@@ -83,6 +85,8 @@ public class ConsulRegistry implements ServiceRegistry {
 
         try {
             URL url = new URL("http://"+match.getAddress()+":"+match.getPort());
+            System.out.println("Service "+ name + ", URL: " + url.toExternalForm());
+            System.out.println("match.getService(): " + match.getService());
             return url.toExternalForm();
         } catch (Exception e) {
             throw new RuntimeException(e);
