@@ -21,6 +21,9 @@ public class Main {
                 .withStageConfig(stageConfig);
 
         swarm.start();
+        
+        System.out.println("swarm.getArgs: " + swarm.getArgs());
+        System.out.println("swarm.stageConfig().getName(): " + swarm.stageConfig().getName());
 
         JAXRSArchive archive = ShrinkWrap.create(JAXRSArchive.class);
         archive.addPackage(Main.class.getPackage());

@@ -3,9 +3,9 @@ service:
         service-name: "user-SNAPSHOT"
 swarm:
     port:
-        offset: 0
+        offset: 1
     consul:
-        url: "http://localhost:8500"
+        url: "http://corsair:8500"
 ---
 project:
     stage: production
@@ -16,5 +16,5 @@ swarm:
     port:
         offset: 50
     consul:
-        url: "http://localhost:8500"
+        url: "http://corsair:8500"
 

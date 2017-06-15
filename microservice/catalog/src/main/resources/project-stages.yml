@@ -2,10 +2,12 @@ service:
     catalog:
         service-name: "catalog-SNAPSHOT"
 swarm:
+    bind:
+        address: 10.0.0.21
     port:
-        offset: 0
+        offset: 2
     consul:
-        url: "http://localhost:8500"
+        url: "http://corsair:8500"
 ---
 project:
     stage: production
@@ -13,8 +15,10 @@ service:
     catalog:
         service-name: "catalog"
 swarm:
+    bind:
+        address: 10.0.0.21
     port:
         offset: 100
     consul:
-        url: "http://localhost:8500"
+        url: "http://corsair:8500"
 
