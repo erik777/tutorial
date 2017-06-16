@@ -35,12 +35,14 @@ public class OrderCommand extends HystrixCommand<OrderCommand.Result> {
 
     @Override
     protected Result run() throws Exception {
+//		String serviceURI = services.getOrderServiceURI();
+		String serviceURI = "http://10.0.0.21:3000";
 
         // client cannot be be used in multi-threaded env's
         WebTarget target = ClientBuilder
                 .newClient()
                 .target(
-                        UriBuilder.fromUri(services.getOrderServiceURI())
+                        UriBuilder.fromUri(serviceURI)
                                 .path("/order/resources/order")
                                 .build()
                 );

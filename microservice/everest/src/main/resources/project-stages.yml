@@ -5,7 +5,7 @@ swarm:
     port:
         offset: 5
     consul:
-        url: "http://localhost:8500"
+        url: "http://corsair:8500"
 ---
 project:
     stage: production
@@ -16,4 +16,4 @@ swarm:
     port:
         offset: 5
     consul:
-        url: "http://localhost:8500"
+        url: "http://corsair:8500"

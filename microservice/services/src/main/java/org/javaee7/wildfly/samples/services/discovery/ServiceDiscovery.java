@@ -37,10 +37,12 @@ public abstract class ServiceDiscovery {
 
     public WebTarget getCatalogService() {
         if (null == catalogService) {
+    		String serviceURI = getCatalogServiceURI();
+//    		String serviceURI = "http://10.0.0.21:3000";
             catalogService = ClientBuilder
                     .newClient()
                     .target(
-                            UriBuilder.fromUri(URI.create(getCatalogServiceURI()))
+                            UriBuilder.fromUri(URI.create(serviceURI))
                                     .path("/catalog/resources/catalog")
                                     .build()
                     );
@@ -52,10 +54,12 @@ public abstract class ServiceDiscovery {
 
     public WebTarget getOrderService() {
         if (null == orderService) {
+//    		String serviceURI = getOrderServiceURI();
+    		String serviceURI = "http://10.0.0.21:3000";
             orderService = ClientBuilder
                     .newClient()
                     .target(
-                            UriBuilder.fromUri(URI.create(getOrderServiceURI()))
+                            UriBuilder.fromUri(URI.create(serviceURI))
                                     .path("/order/resources/order")
                                     .build()
                     );
