@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-14T04:40:54.590Z" agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0" etag="S_ZtLTdb5FQMou6RsoOO" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-14T14:51:41.120Z" agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0" etag="YO8RaxHbju5o2aj5JlVC" version="12.2.6" type="github" pages="1">
   <diagram id="nBBXrx4JV2JvCYNo7sh5" name="Page-1">
     <mxGraphModel dx="1248" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -45,6 +45,24 @@
         </mxCell>
         <mxCell id="4H_nPvJmWoPfq0nWGjwT-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/funky/136/Fire-128.png" vertex="1" parent="1">
           <mxGeometry x="381" y="170" width="48" height="48" as="geometry"/>
+        </mxCell>
+        <mxCell id="4H_nPvJmWoPfq0nWGjwT-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/car_battery-128.png" vertex="1" parent="1">
+          <mxGeometry x="381" y="640" width="128" height="128" as="geometry"/>
+        </mxCell>
+        <mxCell id="4H_nPvJmWoPfq0nWGjwT-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/car_battery-128.png" vertex="1" parent="1">
+          <mxGeometry x="560" y="640" width="128" height="128" as="geometry"/>
+        </mxCell>
+        <mxCell id="4H_nPvJmWoPfq0nWGjwT-13" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="840" as="sourcePoint"/>
+            <mxPoint x="70" y="790" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4H_nPvJmWoPfq0nWGjwT-14" value="" style="endArrow=classic;html=1;fontSize=17;strokeWidth=4;endSize=3;startSize=3;jumpStyle=arc;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="592" y="650" as="sourcePoint"/>
+            <mxPoint x="477" y="650" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
