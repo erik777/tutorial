@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-14T14:54:40.806Z" agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0" etag="dgPUW6wPcGLiyk38sUh2" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-15T15:46:31.512Z" agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0" etag="VLl8BvTBKwYfOXBeGS8i" version="12.2.6" type="github" pages="1">
   <diagram id="nBBXrx4JV2JvCYNo7sh5" name="Page-1">
-    <mxGraphModel dx="1248" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1248" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -46,12 +46,6 @@
         <mxCell id="4H_nPvJmWoPfq0nWGjwT-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/funky/136/Fire-128.png" vertex="1" parent="1">
           <mxGeometry x="381" y="170" width="48" height="48" as="geometry"/>
         </mxCell>
-        <mxCell id="4H_nPvJmWoPfq0nWGjwT-13" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="840" as="sourcePoint"/>
-            <mxPoint x="70" y="790" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4H_nPvJmWoPfq0nWGjwT-15" value="Battery Bank" parent="0"/>
         <mxCell id="4H_nPvJmWoPfq0nWGjwT-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/car_battery-128.png" vertex="1" parent="4H_nPvJmWoPfq0nWGjwT-15">
           <mxGeometry x="391" y="650" width="128" height="128" as="geometry"/>
@@ -63,6 +57,35 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="602" y="660" as="sourcePoint"/>
             <mxPoint x="487" y="660" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Lion Energy UT 1200 12V LiFePO4" link="https://lionenergy.com/collections/batteries/products/lion-safari-ut" id="4H_nPvJmWoPfq0nWGjwT-20">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="4H_nPvJmWoPfq0nWGjwT-15">
+            <mxGeometry x="425" y="770" width="230" height="40" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <mxCell id="4H_nPvJmWoPfq0nWGjwT-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/car_battery-128.png" vertex="1" parent="4H_nPvJmWoPfq0nWGjwT-15">
+          <mxGeometry x="391" y="522" width="128" height="128" as="geometry"/>
+        </mxCell>
+        <mxCell id="4H_nPvJmWoPfq0nWGjwT-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/car_battery-128.png" vertex="1" parent="4H_nPvJmWoPfq0nWGjwT-15">
+          <mxGeometry x="570" y="522" width="128" height="128" as="geometry"/>
+        </mxCell>
+        <mxCell id="4H_nPvJmWoPfq0nWGjwT-23" value="" style="endArrow=classic;html=1;fontSize=17;strokeWidth=4;endSize=3;startSize=3;jumpStyle=arc;strokeColor=#FF0000;" edge="1" parent="4H_nPvJmWoPfq0nWGjwT-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="602" y="532" as="sourcePoint"/>
+            <mxPoint x="487" y="532" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4H_nPvJmWoPfq0nWGjwT-24" value="" style="endArrow=classic;html=1;fontSize=17;strokeWidth=4;endSize=3;startSize=3;jumpStyle=arc;strokeColor=#FF0000;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4H_nPvJmWoPfq0nWGjwT-15" target="4H_nPvJmWoPfq0nWGjwT-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="660" as="sourcePoint"/>
+            <mxPoint x="497" y="542" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4H_nPvJmWoPfq0nWGjwT-25" value="" style="endArrow=classic;html=1;fontSize=17;strokeWidth=4;endSize=3;startSize=3;jumpStyle=arc;strokeColor=#FF0000;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4H_nPvJmWoPfq0nWGjwT-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="668" y="660" as="sourcePoint"/>
+            <mxPoint x="668" y="522" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
